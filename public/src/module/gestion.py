@@ -14,7 +14,7 @@ def pierre_feuille_ciseaux():
         
         # Choix aléatoire de l'ordinateur avec numpy
         computer_choice = np.random.choice(options)
-        print(f"L'ordinateur a choisi {computer_choice}.")
+        print(f"L'ordinateur a choisi {computer_choice.capitalize()}.")
         
         if user_choice == computer_choice:
             print("Égalité !")
